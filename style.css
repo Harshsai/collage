@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+        background-color: gainsboro;
+    }
+
+header {
+    background-color: rgb(199, 18, 114);
+    color: white;
+    padding: 10px 5px;
+    font-family: roboto;
+    font-size: 18px;
+}
+
+header div {
+    margin: 5px 0px;
+}
+
+header i {
+    margin: 0px 8px;
+    font-size: 20px;
+}
+
+
+#navbar img {
+    height: 70px;
+    width: auto;
+}
+
+#navarea {
+    /* padding-top: 10px; */
+    background-color: rgb(255, 255, 255);
+}
+
+#navbar li {
+    color: red;
+    padding: 5px 2px ;
+}
+
+#all-btn {
+    font-family: roboto;
+    font-size: 18px;
+    background-image: linear-gradient(to right, rgb(207, 50, 173) , rgb(154, 18, 203));
+    border-radius: 30px;
+    padding: 6px 28px;
+    color: white;
+    border: none;   
+}
+
+#online-classs-area {
+    background-image: url(video-back.jpg);
+    padding: 50px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+#online-classs-area video {
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+    border: 10px solid rgb(215, 215, 215);
+}
+
+#our-courses h3 {
+    margin-bottom: 40px;
+}
+
+#our-courses article {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 40px;
+    border-radius: 10px 30px 10px 30px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.349);
+}
+
+#our-courses article:hover {
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.607);
+    transition: all linear 300ms;
+}
+
+#our-courses img {
+    height: 220px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px 30px 0px 0px;
+
+}
+
+#student-works img {
+    width: 100%;
+    height: 300px;
+}
+
+#Student-testimonial {
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    background-image: url(student-section-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Student-testimonial video {
+    border: 10px solid white;
+    width: 90%;
+    margin: 5px 10%;
+    border-radius: 10px;
+    height: auto;
+}
+
+footer {
+    padding: 40px 30px;
+    background-image: url(footer-img/download.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+footer li {
+    list-style: none;
+    line-height: 35px;
+}
+
+
+footer i {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        background-color: rgb(199, 18, 114);
+
+    }
+
+    #navarea {
+        background-color: rgb(236, 236, 234);
+    }
+
+    #our-courses div {
+        margin-top: 30px;
+    }
+
+    #foot-area {
+        margin-top: 20px;
+    }
+
+
+
+
+
+}
+
+
+@media screen and (max-width:600px) {
+    #Student-testimonial {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #our-courses div {
+        margin-top: 30px;
+    }
+
+
+
+}
+
+
