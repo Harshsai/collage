@@ -98,7 +98,8 @@ header i {
 }
 
 #Student-testimonial {
-    height: 100vh;
+    padding: 20px 50px;
+    height: auto;
     width: 100%;
     background-color: red;
     background-image: url(student-section-back.jpg);
@@ -111,7 +112,7 @@ header i {
     width: 90%;
     margin: 5px 10%;
     border-radius: 10px;
-    height: auto;
+    height: 320px;
 }
 
 footer {
